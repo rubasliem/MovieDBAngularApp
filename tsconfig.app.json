@@ -10,7 +10,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "src/app/components/not-found/not-found.ts"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]

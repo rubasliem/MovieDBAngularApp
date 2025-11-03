@@ -1,0 +1,9 @@
+.all{
+    color: white;
+    background-color: #052c65;
+
+    ul.list-unstyled a {
+    text-decoration: none;
+}
+
+}

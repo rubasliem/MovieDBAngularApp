@@ -1,0 +1,31 @@
+<div class="overlay">
+  <h1 class="all mt-5">Welcome</h1>
+  <h2 class="all mt-5">Millions of movies, TV shows and people to discover. Explore now.</h2>
+  <div class="d-flex justify-content-center gap-0">
+  <input
+    type="text"
+    class="form-control mt-5 w-50 p-2 bg-light"
+    placeholder="Search for a movie, tv show, person......"
+    #searchInput  />
+    <!-- (keyup.enter)="onSearch(searchInput.value)" -->
+   <button class="btn mt-5 text-light fw-bold" style="background-color:#052c65 ;">Search</button>
+    </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let movie of trendingMovies">
+        <div class="card h-100">
+          <img
+            [src]="imgPath+movie.poster_path"
+            class="card-img-top"
+            alt="{{ movie.title }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ movie.title }}</h5>
+            <p class="card-text">Rating: {{ movie.vote_average }}</p>
+            <p class="card-text">Rating: {{ movie.release_date }}</p>
+          </div>
+        </div>
+      </div>  
+    
+</div>
