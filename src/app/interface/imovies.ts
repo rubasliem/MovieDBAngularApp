@@ -5,4 +5,5 @@ export interface IMovies {
   vote_average: number;
   overview: string;
   release_date: string;
+  video?: boolean;
 }

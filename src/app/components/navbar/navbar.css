@@ -1,18 +1,12 @@
-.all{
-    text-decoration: none;
-    color: white;
-    background-color: #052c65;
-    padding-right: 100px;
-    padding-left: 100px;
-
-    a{
-         margin-right: 30px;
+ a{
+         margin-right: 15px;
          font-weight: bold;
-         color: white;
+         color: var(--font-Color);
     }
-    
-}
+
 
 .linkActive{
     font-size: 20px;
+    color: var(--light-bg);
+
 }

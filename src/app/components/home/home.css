@@ -1,23 +1,17 @@
-.overlay{
-  position: relative;       
-  background-image: url('poster01.jpg'); 
+/* 🔹 خلفية لقسم البحث فقط */
+.overlay {
+  position: relative;
+  background-image: url('../../../assets/poster01.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 6rem 1rem;          
+  padding: 6rem 1rem;
   color: white;
   text-align: center;
   overflow: hidden;
 }
 
-.overlay .all{
-  position: relative;
-  z-index: 2;
-}
-
-.fullscreen {
-  min-height: 70vh; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.card {
+  background-color: white;
+  border-radius: 10px;
 }

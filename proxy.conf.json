@@ -1,0 +1,25 @@
+{
+  "/api/tmdb/*": {
+    "target": "https://api.themoviedb.org/3",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/tmdb": ""
+    }
+  },
+  "/api/users/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/favorites/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/api/notes/*": {
+    "target": "http://localhost:5000",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

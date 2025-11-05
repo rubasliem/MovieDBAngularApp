@@ -1,6 +1,6 @@
-<nav class=" navbar navbar-expand-lg all py-2 ">
+<nav class=" navbar navbar-expand-lg mx-auto py-2 ">
     <a class="navbar-brand" href="#">
-    <img src="./blue_short.svg" class="w-50" alt="logo">
+    <img src="./blue_short.svg" class="w-50 ms-5" alt="logo">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -8,13 +8,44 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link"  routerLink="home" routerLinkActive="linkActive">Movies</a>
+        <a class="nav-link"  routerLink="home" routerLinkActive="linkActive">Home</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="about" routerLinkActive="linkActive">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link "  routerLink="movies" routerLinkActive="linkActive">Movies</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link "  routerLink="tv" routerLinkActive="linkActive">TV</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link "  routerLink="people" routerLinkActive="linkActive">People</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+      <li class="nav-item d-flex align-items-center me-3">
+        <i class="fab mx-1 fa-facebook"></i>
+        <i class="fab mx-1 fa-google"></i>
+        <i class="fab mx-1 fa-instagram"></i>
+        <i class="fab mx-1 fa-youtube"></i>
+        <i class="fab mx-1 fa-twitter"></i>
+        <i class="fab mx-1 fa-spotify"></i>
+
+      </li>
+  
+    <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link"  routerLink="login" routerLinkActive="linkActive">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link "  routerLink="details" routerLinkActive="linkActive">Details</a>
+        <a class="nav-link"  routerLink="register" routerLinkActive="linkActive">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link "  routerLink="logout" routerLinkActive="linkActive">LogOut</a>
       </li>
     </ul>
   </div>
